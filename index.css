@@ -1,17 +1,21 @@
 body {
-    background-image: url("yarn.jpeg");
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: chalkbuster, fantasy;
+    font-weight: bold;
     text-align: center;
     height: 100vh;
 }
 
 .container {
-    background: white;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
     max-width: 80%;
     margin: auto;
-    border: 3px solid black;
+    border: .5px solid black;
     border-radius: 10px;
+    box-shadow: 5px 5px 5px 1px #888888;
+    
 }
 
 h1 {
@@ -26,7 +30,7 @@ h2 {
 }
 
 button {
-    border: 1px solid black;
+    border: none;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
@@ -34,17 +38,17 @@ button {
     width: 200px;
     margin-bottom: 5px;
     border-radius: 5px;
+    
 }
 
 #increment-btn {
-    background: #2C2891;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    box-shadow: 5px 3px 9px 1px #888888;
+    
 }
 
 #save-btn {
-    background: #1C7947;
-}
-
-#save-el {
-    font-weight: bold;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    box-shadow: 5px 3px 9px 1px #888888;
 }
 
